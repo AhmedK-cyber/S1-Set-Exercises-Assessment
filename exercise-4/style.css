@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#f062a6;
+}
+
+
+/* header layout */
+header{
+    text-align:center;
+    padding:20px;
+}
+
+
+/* decorative design image */
+.top-design img{
+    width:200px;
+    margin-bottom:10px;
+}
+
+
+/* page title */
+header h1{
+    margin:10px 0;
+}
+
+
+/* cart icon */
+.cart-link img {
+    width: 35px;
+}
+
+/* navigation menu */
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+/* main content */
+main{
+    width:60%;
+    margin:auto;
+}
+
+
+/* photo sections */
+.photo{
+    margin:40px 0;
+}
+
+
+/* images */
+.photo img{
+    width:100%;
+    height:auto;
+}
+
+
+/* caption style */
+figcaption{
+    background:#e7e3c9;
+    padding:10px;
+    font-weight:bold;
+}
+
+
+/* basket button */
+button{
+    margin-top:8px;
+    padding:6px 12px;
+}
+
+
+/* footer */
+footer{
+    padding:20px;
+    text-align:center;
+}
