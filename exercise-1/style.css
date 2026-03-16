@@ -1,0 +1,12 @@
+ header{
+     background-color: lightgray; /* Lightgray color for background */
+    padding: 20px;              /* Space inside the box */
+    }
+.graybox{
+     background-color: lightgray; /* Lightgray color for background */
+    padding: 25px;              /* Space inside the box */
+    }
+ footer{
+     background-color: lightgray; /* Lightgray color for background */
+    padding: 30px;              /* Space inside the box */
+    }
