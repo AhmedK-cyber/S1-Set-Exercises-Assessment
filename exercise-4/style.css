@@ -1,0 +1,109 @@
+/* Reset basic browser defaults */
+body {
+    margin: 0;
+    font-family: Georgia, serif;   /* classy font like the example */
+    background-color: #f062a6;     /* pink background */
+    color: #222;                   /* normal readable text color */
+}
+
+/* ---------------- HEADER ---------------- */
+
+/* top header section */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* decorative divider image */
+.top-design img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* website title */
+header h1 {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* shopping cart icon */
+.cart-link img {
+    width: 35px;
+}
+
+/* ---------------- NAVIGATION ---------------- */
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;       /* center navigation links */
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;                   /* normal readable text */
+}
+
+/* ---------------- MAIN CONTENT ---------------- */
+
+main {
+    width: 70%;                    /* similar to screenshot width */
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* ---------------- PHOTO GRID ---------------- */
+
+/* turn all .photo sections into a neat grid */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;                     /* spacing between photo boxes */
+}
+
+/* each photo container */
+.photo {
+    background: none;              /* allow pink backdrop like screenshot */
+}
+
+/* figure box (image + caption) */
+figure {
+    margin: 0;
+}
+
+/* images consistently sized */
+.photo img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #fff;        /* white border like in screenshot */
+}
+
+/* caption styling */
+figcaption {
+    background: #e7e3c9;           /* beige background */
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* add-to-basket button */
+button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background: #fff;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
