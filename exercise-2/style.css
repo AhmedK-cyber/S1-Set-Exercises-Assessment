@@ -1,0 +1,48 @@
+/* Page background */
+body {
+    background-color: lightgray; /* Gray background like the image */
+    font-family : Arial
+}
+
+/* Main white container */
+.container {
+    background-color: white;
+    width: 800px;
+    margin: auto; /* Containor is at center */
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* Main title style */
+h1 {
+    color: green;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Section headings */
+h2 {
+    color: green;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Green information box */
+.fact-box {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Heading inside the green box */
+.fact-box h3 {
+    font-size: 30px;
+}
